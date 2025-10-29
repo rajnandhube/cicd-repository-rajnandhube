@@ -8,7 +8,7 @@ on:
     - main
 jobs:
   my-first-job:
-    name: Ubuntu Runner
+    # name: Ubuntu Runner
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repository
